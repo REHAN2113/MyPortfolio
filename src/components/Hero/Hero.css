@@ -1,0 +1,108 @@
+#hero{
+    padding: 50px;
+    height: 580px;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+   
+    
+}
+#hero div{
+    display: flex;
+   
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.myimg{
+    width: 200px;
+    border-radius: 100%;
+}
+#intro-title-con{
+    font-size: 46px;
+    
+   
+     display: flex;
+     flex-direction: column;
+    
+}
+#myname{
+ background: linear-gradient(267deg, #c825da 0.36%,#239be1 100%);
+ background-clip: text;
+ -webkit-background-clip:text;
+ font-weight: bold;
+ -webkit-text-fill-color: transparent;
+}
+#title-description{
+   font-size: 13px;
+}
+#btn-con{
+    padding:30px;
+    gap: 10px;
+    
+}
+.btn-resume{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(267deg, #DA7C25 0.36%,#B923E1 102%);
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    border:none;
+}
+.btn-resume:hover,.btn-connect:hover{
+    border-radius: 10px;
+   
+    transition: 0.3s;
+}
+.btn-connect{
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(267deg, #c825da 0.36%,#239be1 100%);
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    font-size: 20px;
+    border:none;
+}
+#navbar-canvas li{
+margin: 20px 0px 10px 0px;
+}
+.nav-a-canvas:hover{
+    background-color: #B923E1;
+    transition: 0.3s;
+    padding: 4px;
+color: white !important;
+}
+@media (min-width: 500px) and (max-width: 800px){
+    #intro-title-con{
+        font-size: 26px;
+        
+       
+         
+        
+    }
+    .btn-connect,.btn-resume{
+        font-size: 14px;
+    }
+}
+@media (min-width: 300px) and (max-width: 500px){
+    #hero{
+        width: 520px;
+    }
+    #intro-title-con{
+        font-size: 20px;
+        
+       
+      
+    }
+    .btn-connect,.btn-resume{
+        font-size: 10px;
+    }
+}

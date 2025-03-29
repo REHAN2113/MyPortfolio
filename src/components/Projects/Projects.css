@@ -1,0 +1,116 @@
+#projects{
+   
+    
+   display: grid;
+   grid-template-rows: 6fr 6fr;
+
+    color: white;
+
+}
+.fullstack{
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: space-around;
+    height: 100%;
+    
+}
+.fullstack-grid{
+    display: grid;
+    grid-template-columns: 6fr 6fr;
+    gap: 100px;
+    margin-top: 50px;
+    
+}
+.project-title{
+    font-size: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.fullstack-top{
+    margin-top: 50px;
+}
+.fullstack-top div{
+    display: flex;
+    justify-content: center;
+}
+#fullstack-project-title{
+    font-size: 24px;
+    font-weight: bold;
+}#fullstack-project-desc{
+    font-size: 16px;
+    
+}
+.prj-imgs{
+    width:90%;
+}
+.btn-visit{
+    background: linear-gradient(267deg, #c825da 0.36%,#239be1 100%);
+    color: white;
+    padding: 6px;
+    width:100%;
+    display: inline-block;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    padding-left: 10px; 
+    padding-right:10px ; 
+    border-radius: 4px;
+}
+
+#frontend-grid{
+    display: grid;
+    height: 100%;
+    gap: 50px;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    padding: 40px;
+}
+
+.ui-imgs{
+   width: 100%;
+}
+.ui-imgs:hover{
+    transform: scale(0.9);
+    transition: 0.4s;
+}
+.btn-visit:hover{
+   transform: scale(0.9);
+    transition: 0.5s;
+}
+@media (min-width: 500px) and (max-width: 800px){
+    .fullstack-grid{
+        display: flex;
+        flex-direction: column;
+        ; 
+       
+        
+    }
+    #frontend-grid{
+        display: grid;
+        height: 100%;
+        gap: 20px;
+        grid-template-columns: 6fr  6fr;
+        padding: 40px;
+    }
+   
+   
+}
+@media (min-width: 300px) and (max-width: 500px){
+    .fullstack-grid{
+        grid-template-columns: 1fr;
+    }
+    #frontend-grid{
+      
+      
+        grid-template-columns: 1fr;
+    }
+   #projects{
+  
+    width: 530px;
+    display: flex;
+    flex-direction: column;
+   }
+   
+}
